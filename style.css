@@ -1,0 +1,179 @@
+/* Write some CSS below */
+
+body {
+    background-color: #748af7; 
+    background-size: cover; 
+    background-position: center;
+    color: #0f1e50; 
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  }
+
+.circle-image {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #0d6efd;
+  }
+
+  .btn-blue{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: 400;
+  }
+  .btn-blue:hover{background-color: #0d6efd;}
+
+  .btn-yellow{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: 400;
+    list-style-type: none;
+  }
+
+  .logocontainer {   list-style-type: none;   padding-inline-start: 0; }   
+  .logocontainer li {   display: inline-block; }   
+  .logocontainer a {   text-decoration: none; }
+  .logocontainer a i {   font-size: 50px;   margin: 0 10px;   color: #7375d3;   } 
+  .logocontainer a i:hover {   color: #3e3b7a}
+
+.container {
+    background-color: rgba(166, 184, 234, 0.85); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 10px solid #3e3b7a;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 150px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.souscontainer {
+    background-color: rgba(135, 166, 249, 0.85); 
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 5px solid #000000;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 200px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.logocontainer {
+    background-color: rgba(166, 184, 234, 0.85); 
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 10px solid #3e3b7a;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 150px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    padding: 0px;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #040e72;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+.logostyle {
+    list-style-type: none;
+}
+
+/* au cas ou
+  
+  #btn-white {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 20%;
+    font-weight: 200;
+  }
+  #btn-white:hover{
+    background-color: #0d6efd;
+  }
+
+  .card {
+    background-color: rgba(30, 57, 130, 0.85); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 5px solid #000000;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 5px 5px 150px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  
+  .card a img {
+    width: 40px; 
+    height: auto;
+    margin-top: 15px;
+  }
+  
+  .card h2 {
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  .half-width {
+    width: 80%;
+  }
+  
+  .circle-image {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #0d6efd;
+  }
+
+ 
+  
+  .logocontainer {
+    list-style-type: none;
+  }
+  
+  .logocontainer li i {
+    font-size: 120px;
+  }
